@@ -10,6 +10,7 @@ export default function AppLayout() {
         title: "Create New"
       }} />
       <Tabs.Screen name="receipts" options={{
+        headerShown: false,
         title: "My Receipts"
       }} />
     </Tabs>
