@@ -1,9 +1,16 @@
-import { Text, View, StyleSheet } from "react-native";
+import { Link } from "expo-router";
+import { StyleSheet, Text, View } from "react-native";
 
 export default function Index() {
   return (
     <View style={styles.container}>
-      <Text>Edit src/app/index.tsx to edit this screen.</Text>
+      <Text>Home Page</Text>
+      <Text>If user is not logged in, show auth buttons.</Text>
+      <Text>If logged in, redirect to Dashboard area.</Text>
+
+      <View style={{ marginVertical: 20 }}>
+      <Link href="/(app)/dashboard">Go to Dashboard</Link>
+      </View>
     </View>
   );
 }
