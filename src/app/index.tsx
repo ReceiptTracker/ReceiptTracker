@@ -9,8 +9,9 @@ export default function Index() {
       <Text>If logged in, redirect to Dashboard area.</Text>
 
       <View style={{ marginVertical: 20 }}>
-      <Link href="/(app)/dashboard">Go to Dashboard</Link>
+        <Link href="/(app)/dashboard" push>Go to Dashboard</Link>
       </View>
+      
     </View>
   );
 }
