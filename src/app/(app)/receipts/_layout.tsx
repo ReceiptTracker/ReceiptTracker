@@ -7,7 +7,8 @@ export default function ReceiptsLayout() {
         title: "My Receipts"
       }} />
       <Stack.Screen name="[id]" options={{
-        title: "Receipt Details"
+        title: "Receipt Details",
+        headerBackButtonDisplayMode: 'minimal',
       }} />
     </Stack>
   )
