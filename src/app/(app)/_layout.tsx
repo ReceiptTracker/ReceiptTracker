@@ -19,6 +19,10 @@ export default function AppLayout() {
         tabBarIcon: () => <Ionicons size={28} name="receipt" />,
         title: "My Receipts"
       }} />
+      <Tabs.Screen name="profile" options={{
+        tabBarIcon: () => <FontAwesome size={28} name="user-circle-o" />,
+        title: "Account"
+      }} />
     </Tabs>
   )
 }
